@@ -62,7 +62,7 @@ const Hero = () => {
             <Desc>
               Open and fund a brokerage account with $100
               or more you will have a chance of claiming stocks like 
-              <span> Google, FB, SBUX</span>{' '} and more!
+              <span> Goog, FB, SBUX</span>{' '} and more!
             </Desc>
             <Button href='https://www.webull.com/'>
               <span>
