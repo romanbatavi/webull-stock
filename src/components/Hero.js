@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import BgImg from '../assets/bg-image.png';
+import { FiChevronsRight } from 'react-icons/fi'
 
 const Section = styled.section`
   background: url(${BgImg});
@@ -68,6 +69,7 @@ const Hero = () => {
               <span>
                 Claim your free stocks now
               </span>
+              <FiChevronsRight />
             </Button>
         </Left>
       </Content>
