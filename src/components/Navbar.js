@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 import Img from '../assets/logo.svg'
 import { Link } from 'react-router-dom'
 
@@ -110,7 +110,10 @@ const Navbar = () => {
           </SearchWrap>
         </Search>
         <ButtonContainer>
-          <Button>SIGN UP</Button>
+          <Button css={`
+            color: #037cff;
+            background: #fff;
+          `}>SIGN UP</Button>
           <Button>LOG IN</Button>
         </ButtonContainer>
       </NavbarWrap>
